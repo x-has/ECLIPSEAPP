@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:url("mont.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 90%;
+}
+
+.center{
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: 40px;
+  text-transform: capitalize;
+}
+button{
+  margin: 0 auto;
+  height: 60px;
+  width: 500px;
+  background: #6666cc;
+  border: none;
+  border-radius: 6px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.modal-parent{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.modal{
+  color: antiquewhite;
+  background: rgb(8, 8, 8);
+  width: 70%;
+  padding: 30px;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  font-family: arial;
+  position: relative;
+  animation: 0.5s drop;
+}
+@keyframes drop {
+  0%{
+    top: -100px;
+  }
+  100%{
+    top: 50%;
+  }
+}
+.X{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+section{
+  transition: 2s;
+}
+a {color: blanchedalmond;
+}
+#contact-me {
+background: rgb(0, 0, 0);
+color: rgb(248, 248, 248);
+border: solid 2px white;
+border-radius: 7px;
+margin: 4px;
+padding: 2px;
+width: 10%;
+}
+#contac-me:active , #contact-me:hover {
+  background: rgb(196, 186, 186);
+  border-bottom: rgb(0, 0, 0) solid 3px ;
+  color: rgb(255, 254, 254);
+  font-size: 19px ;
+}

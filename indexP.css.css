@@ -1,0 +1,247 @@
+*{
+  box-sizing: border-box;
+}
+body{
+padding: 0;
+margin: 0; 
+}
+
+
+header{
+  text-align: left;
+  background-color: rgba(32, 32, 32, 0.884);
+  padding: 8px;
+  color: white;
+}
+.nav-bar-item{ 
+  text-decoration: none;
+  color: rgba(248, 240, 240, 0.884);
+  display: inline-block;
+  padding: 5px ;
+  margin: 0px 20px;
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow' ;
+  }
+ 
+.nav-bar-item a{
+  text-decoration: none;
+  color: rgb(245, 239, 239);
+  letter-spacing: 0.5px ;
+}
+.nav-bar-item a:hover , .nav-bar-item a:active {
+  color: whitesmoke;
+  border-bottom: rgb(207, 240, 240) solid 3px ;
+  color: rgb(212, 0, 0);
+  font-size: 19px ;
+}
+.nav-bar {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  height :48px;
+	width :91%;
+}
+.search-form{
+  margin-top: 8px ;
+  float: right ;
+}
+input[type=text]{
+  padding: 7px;
+  border: none ;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+button{
+  float: right ;
+  background:rgb(198, 219, 135);
+  color: white ;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position: relative;
+  padding: 7px;
+  font-family: sans-serif;
+  border: none;
+  font-size: 16px;
+}
+
+div{
+  display: inline-block;}
+.brand{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+.titel-brand{color: rgb(255, 253, 253);
+text-decoration: none;
+font-size: 27px;
+font-weight: bolder;
+font-family:'jost' , 'sans-serif' ;
+}
+.brand::first-letter{color: rgb(198, 219, 135);
+font-size: 30px;}
+
+.nav-bar-item_tct{background-color :  rgb(198, 219, 135);
+  color:rgb(0, 0, 0)k;
+  font-size: 20px;
+  padding: 7px 4px;}
+.nav-bar-item_tct a:hover,.nav-bar-item_tct :active{border: none;}
+
+#product {
+  background:url('blanc2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 8px;
+ 
+
+}
+#product h2{text-align: center;}
+#product h1 {
+  box-shadow: 5px 5px 7px rgba(150, 132, 132, 0.5) ; 
+  font-size:30px;
+  color:rgb(255, 255, 255); 
+  text-align: center;}
+#product h1::first-letter {color: rgba(228, 0, 0, 0.877);
+text-decoration: initial;
+font-size: 50px ;}
+.plans-title{
+  text-align: center;
+}
+.plan {
+  display: inline-block;
+  text-align: center;
+  background:#191919 ;
+  color: #ffffff;
+  margin: 8px;
+  width: 430px;
+  vertical-align: middle;
+  padding: 16px 16px 16px 16px ;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+.plan-recomended {
+  background:#ffffff;
+  color: #000000;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 7);
+}
+
+
+h1::first-letter{color: rgba(4, 105, 109, 0.445);
+  font-size: 40px;
+  }
+.Recommended-titel {
+  background:#191919 ;
+  color:white;
+  padding: 6px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 7);
+  border-radius: 7px;
+}
+.plan-features{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.plan-price{
+  padding: 30px;
+}
+.button{
+  background : rgba(4, 105, 109, 0.445) ;
+  color: #ffffffc2;
+  font: inherit;
+  margin: 8px;
+  padding: 10px; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover,.button:active{
+  background:rgb(255, 186, 137) ;
+  color: #020303;
+}
+.button:focus{outline: none;}
+
+#our-features{
+  background:url('yes.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding:8px;
+  margin: 70px;
+}
+
+#our-features .section-titel {
+  text-align: center;
+  color: rgb(5, 5, 5);
+}
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.features-list_item {
+  display: inline-block;
+  width: 30%;
+}
+.features-item_img{
+  background:url("__xhas.jpg");
+  width: 128px;
+  border: 2px solid rgb(7, 7, 7) ;
+  height: 128px;
+  margin: 0 auto;
+  border-radius: 50%;
+
+}
+.features-item_descrition{
+
+}
+.footer{
+  background: url('fsdfsfs.jpg');
+  padding: 35px;
+  margin-top: 50px;
+
+}
+.footer-nav_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  
+}
+.footer-nav_link {
+  display: inline-block;
+  margin: 0 16px;
+
+}
+.footer-nav_link a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 22px;
+}
+.footer-nav_link a:hover , 
+.footer-nav_link a:active {
+  background: rgb(0, 0, 0);
+  color: rgb(191, 255, 0);
+}
+.img_icon {
+  height: 40px;
+  width: 40px;
+  margin:0 0 12px 0 ;
+  
+}
+.icon {
+  display: list-item;
+  padding: 2px;
+  color: white;
+  size: 20px;
+  font-family: sans-serif;
+}
+.icon:hover,.icon:active{
+  background: rgb(255, 253, 253);
+  color: rgb(17, 0, 255);
+}
+.nav-bar-item-book {
+  display: list-item;
+
+}
